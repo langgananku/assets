@@ -1,0 +1,1 @@
+$(".accordion-header").on("click",(function(){const i=$(this).next(".accordion-content");i.is(":visible")?(i.slideUp(),$(this).removeClass("active")):($(".accordion-content:visible").slideUp(),$(".accordion-header.active").removeClass("active"),i.slideDown(),$(this).addClass("active"))}));

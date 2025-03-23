@@ -1,0 +1,1 @@
+$(document).ready((function(){localStorage.getItem("cartData")||(alert("Anda belum memesan apapun!"),window.location.href="/")}));

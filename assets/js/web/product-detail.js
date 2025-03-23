@@ -1,0 +1,1 @@
+$(document).ready((function(){const o=$("#product-detail-form-wrap");let s=0;$(window).scroll((()=>{const c=o.css("position"),d=$(window).scrollTop();"fixed"===c&&(d>200?o.hide():d<200&&o.show(),d<s&&o.show(),s=d)}))}));
